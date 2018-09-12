@@ -14,7 +14,7 @@ pipeline:
 
   publish:
     image: plugins/docker
-    repo: plugins/docker
+    repo: jpds10/plugins-docker
     tags: [ "latest", "18", "18.06" ]
     secrets: [ docker_username, docker_password ]
     dockerfile: docker/Dockerfile
